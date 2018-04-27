@@ -1,0 +1,43 @@
+{
+    "name": "llvm-tablegen",
+    "displayName": "LLVM TableGen",
+    "description": "Syntax highlighting for TableGen.",
+    "version": "0.0.1",
+    "publisher": "jakob-erzar",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "keywords": [
+        "llvm-tablegen",
+        "llvm-tblgen",
+        "tblgen",
+        "llvm",
+        "tablegen",
+        "table gen",
+        "syntax"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "tablegen",
+            "aliases": ["TableGen", "tblgen", "tablegen"],
+            "extensions": [".td"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "tablegen",
+            "scopeName": "source.tablegen",
+            "path": "./syntaxes/tablegen.tmLanguage"
+        }]
+    },
+    "bugs": {
+        "url": "https://github.com/jakoberzar/vscode-llvm-tablegen/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jakoberzar/vscode-llvm-tablegen.git"
+    },
+    "homepage": "https://github.com/jakoberzar/vscode-llvm-tablegen/blob/master/README.md"
+}
