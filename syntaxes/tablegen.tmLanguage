@@ -51,19 +51,19 @@
 			<key>match</key>
 			<string>\b\d+\b</string>
 			<key>name</key>
-			<string>constant.numeric.dec.llvm</string>
+			<string>constant.numeric.dec.tablegen</string>
 		</dict>
         <dict>
 			<key>match</key>
 			<string>\b0b[01]+\b</string>
 			<key>name</key>
-			<string>constant.numeric.bin.llvm</string>
+			<string>constant.numeric.bin.tablegen</string>
 		</dict>
         <dict>
 			<key>match</key>
 			<string>\b0x[0-9a-fA-F]+\b</string>
 			<key>name</key>
-			<string>constant.numeric.hex.llvm</string>
+			<string>constant.numeric.hex.tablegen</string>
 		</dict>
 	</array>
 	<key>repository</key>
