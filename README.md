@@ -2,7 +2,7 @@
 
 Simple syntax highlighting support for the LLVM TableGen language.
 
-TextMate grammar used was taken from the official [LLVM repository](https://github.com/llvm-mirror/llvm/blob/master/utils/textmate/TableGen.tmbundle/Syntaxes/TableGen.tmLanguage).
+TextMate grammar used is based on the one from the official [LLVM repository](https://github.com/llvm-mirror/llvm/blob/master/utils/textmate/TableGen.tmbundle/Syntaxes/TableGen.tmLanguage).
 
 ## Features
 

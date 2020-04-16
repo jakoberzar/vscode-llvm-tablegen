@@ -18,7 +18,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(def|let|in|code|dag|string|list|bits|bit|field|include|defm|foreach|class|multiclass|int)\b</string>
+			<string>\b(def|let|in|code|dag|string|list|bits|bit|field|include|defm|foreach|class|multiclass|int|if|then|else|defset|defvar)\b</string>
 			<key>name</key>
 			<string>keyword.control.tablegen</string>
 		</dict>
@@ -38,6 +38,32 @@
 					<string>constant.character.escape.tablegen</string>
 				</dict>
 			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\[{</string>
+			<key>end</key>
+			<string>}]</string>
+			<key>name</key>
+			<string>string.unquoted.tablegen</string>
+		</dict>
+        <dict>
+			<key>match</key>
+			<string>\b\d+\b</string>
+			<key>name</key>
+			<string>constant.numeric.dec.llvm</string>
+		</dict>
+        <dict>
+			<key>match</key>
+			<string>\b0b[01]+\b</string>
+			<key>name</key>
+			<string>constant.numeric.bin.llvm</string>
+		</dict>
+        <dict>
+			<key>match</key>
+			<string>\b0x[0-9a-fA-F]+\b</string>
+			<key>name</key>
+			<string>constant.numeric.hex.llvm</string>
 		</dict>
 	</array>
 	<key>repository</key>
