@@ -15,9 +15,7 @@
         "llvm-tblgen",
         "tblgen",
         "llvm",
-        "tablegen",
-        "table gen",
-        "syntax"
+        "tablegen"
     ],
     "contributes": {
         "languages": [{
