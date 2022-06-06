@@ -47,6 +47,12 @@
 			<string>constant.language.tablegen</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>\b(\!add|\!and|\!cast|\!con|\!dag|\!empty|\!eq|\!filter|\!find|\!foldl|\!foreach|\!ge|\!getdagop|\!gt|\!head|\!if|\!interleave|\!isa|\!le|\!listconcat|\!listsplat|\!lt|\!mul|\!ne|\!not|\!or|\!setdagop|\!shl|\!size|\!sra|\!srl|\!strconcat|\!sub|\!subst|\!substr|\!tail|\!xor|\!cond)\b</string>
+			<key>name</key>
+			<string>support.function.tablegen</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>"</string>
 			<key>end</key>
