@@ -2,7 +2,7 @@
     "name": "llvm-tablegen",
     "displayName": "LLVM TableGen",
     "description": "Syntax highlighting for TableGen.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "jakob-erzar",
     "engines": {
         "vscode": "^1.22.0"

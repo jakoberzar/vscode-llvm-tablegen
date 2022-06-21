@@ -18,9 +18,39 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(def|let|in|code|dag|string|list|bits|bit|field|include|defm|foreach|class|multiclass|int|if|then|else|defset|defvar)\b</string>
+			<string>\b(assert|else|foreach|if|then)\b</string>
 			<key>name</key>
 			<string>keyword.control.tablegen</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(def|defm|defset|defvar|include|let)\b</string>
+			<key>name</key>
+			<string>keyword.operator.tablegen</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(field|in)\b</string>
+			<key>name</key>
+			<string>keyword.other.tablegen</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(bit|bits|class|code|dag|int|list|multiclass|string)\b</string>
+			<key>name</key>
+			<string>storage.type.tablegen</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(false|true)\b</string>
+			<key>name</key>
+			<string>constant.language.tablegen</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(\!add|\!and|\!cast|\!con|\!dag|\!empty|\!eq|\!filter|\!find|\!foldl|\!foreach|\!ge|\!getdagop|\!gt|\!head|\!if|\!interleave|\!isa|\!le|\!listconcat|\!listsplat|\!lt|\!mul|\!ne|\!not|\!or|\!setdagop|\!shl|\!size|\!sra|\!srl|\!strconcat|\!sub|\!subst|\!substr|\!tail|\!xor|\!cond)\b</string>
+			<key>name</key>
+			<string>support.function.tablegen</string>
 		</dict>
 		<dict>
 			<key>begin</key>
